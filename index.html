@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   </head>
+<body>
+  <div class="container">
+        <div class="title"><u>Registration Form</u></div>
+            <div class="content">
+                <form id="form">
+                    <div class="user-details">
+                    <div class="input-box">
+                        <label class="details">First Name</label>
+                    
+                        <input type="text" id="fname" placeholder="Enter your First name" >
+                        <span style="color: red;" id="fname-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        
+                        <input type="text" id="lname" placeholder="Enter your Last name" >
+                        <span style="color: red;" id="lname-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        
+                        <input type="text" id="email" placeholder="Enter your email" >
+                        <span style="color: red;" id="email-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        
+                        <input type="text" id="Phone" placeholder="Enter your Phone number" >
+                        <span style="color: red;" id="phone-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        
+                        <input type="text" id="password" placeholder="Enter your password" >
+                        <span style="color: red;" id="password-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                    
+                        <input type="text" id="cpassword" placeholder="Confirm your password" >
+                        <span style="color: red;" id="cpassword-error"></span>
+                    </div>
+                    </div>
+                    
+                    <div class="gender-box">
+                        <h3>Gender </h3>
+                        <div class="gender-option">
+                            <div class="gender">
+                                <input type="radio" id="check" name="gender"/>
+                                <label for="check-male">Male</label>
+                            </div>
+                            <div class="gender">
+                                <input type="radio" id="check" name="gender"/>
+                                <label for="check-female">Female</label>
+                            </div>
+                            <div class="gender">
+                                <input type="radio" id="check" name="gender"/>
+                                <label for="check-female">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="button">
+                    <input type="submit" value="Register">
+                    </div>
+                    
+                </form>
+            </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
